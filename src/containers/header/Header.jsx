@@ -21,8 +21,7 @@ const Header = () => {
             transition={{ duration: 1 }}
             className='gradient__text'
           >
-            Designed to be the future. 
-            This is sick       
+            Designed to be the future.      
           </motion.h1>
           <p>Download SHOOF app on</p>
 
