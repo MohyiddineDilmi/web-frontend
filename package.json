@@ -1,6 +1,7 @@
 {
   "name": "web-frontend",
   "version": "0.1.0",
+  "homepage": "/.",
   "private": true,
   "build": "set \"CI=false\" && react-scripts build",
   "dependencies": {
