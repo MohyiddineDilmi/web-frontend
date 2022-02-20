@@ -56,7 +56,7 @@ const Header = () => {
 
       <div className='sh_header-title'>
           <h1>
-            We build solutions to the world.        
+            We build solutions to everyone.        
           </h1>
           <p>We Create a powerful and smart On-demand services based on the people needs.</p>
       </div>
