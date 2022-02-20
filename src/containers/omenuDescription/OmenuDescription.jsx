@@ -1,6 +1,5 @@
 import React from 'react'
 import './omenuDescription.css'
-import cover from '../../assests/cover.jpg'
 import ReactPlayer from 'react-player/youtube'
 
 
