@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.271ca849.css",
-    "main.js": "/static/js/main.556bc331.js",
+    "main.js": "/static/js/main.0c3105eb.js",
     "static/media/header-img.png": "/static/media/header-img.f217d2a7ec5c002efce1.png",
     "static/media/odoctor-img.png": "/static/media/odoctor-img.ff660a8a24b053392680.png",
     "static/media/omenu-img.png": "/static/media/omenu-img.baa437531ff9f6cabc8a.png",
@@ -14,10 +14,10 @@
     "static/media/omed.svg": "/static/media/omed.c5c043c0cbdec50370c68b8c1b6dc1a6.svg",
     "index.html": "/index.html",
     "main.271ca849.css.map": "/static/css/main.271ca849.css.map",
-    "main.556bc331.js.map": "/static/js/main.556bc331.js.map"
+    "main.0c3105eb.js.map": "/static/js/main.0c3105eb.js.map"
   },
   "entrypoints": [
     "static/css/main.271ca849.css",
-    "static/js/main.556bc331.js"
+    "static/js/main.0c3105eb.js"
   ]
 }
