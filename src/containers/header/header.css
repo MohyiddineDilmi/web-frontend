@@ -1,0 +1,141 @@
+.sh__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sh__header-container {
+    display: flex;
+}
+
+.sh__header-content  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sh__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.sh__header-content p {
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 6rem;
+}
+
+.sh__header-content-apps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.sh__header-content-apps button {
+    width: 186px;
+    height: 60px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin: 0 1rem;
+}
+
+.sh__header-content-apps-apple button {
+    margin-left: 0rem;
+}
+
+.sh__header-content-apps-icons { 
+    margin-right: 1rem;
+}
+
+.sh__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sh__header-image img {
+    width: 100%;
+}
+
+.sh_header-title {
+    padding: 2rem;
+    
+}
+
+.sh_header-title h1{
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.sh_header-title p{
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1050px) {
+    .sh__header {
+        flex-direction: column;
+    }
+
+    .sh__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sh__header h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .sh__header-image img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sh__header-content p {
+        margin-top: 2rem;
+    }
+
+    .sh__header-image img {
+        display: none;
+    }
+
+    .sh__header-content-apps button {
+        width: 146px;
+        height: 50px;
+        border-radius: 25px;
+        margin: 0 0.5rem;
+    }
+
+    .sh__header-content-apps-icons { 
+        margin-right: 0.5rem;
+    }
+
+    .sh__header-content-apps-apple button {
+        margin-left: 0rem;
+    }
+}
+
+
+    
+

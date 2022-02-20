@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="241" height="241" viewBox="0 0 241 241">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ca965b"/>
+      <stop offset="1" stop-color="#654b2e"/>
+    </linearGradient>
+  </defs>
+  <g id="odelivery" transform="translate(-1299 -894)">
+    <g id="Rectangle_335" data-name="Rectangle 335" transform="translate(1299 894)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="241" height="241" rx="83" stroke="none"/>
+      <rect x="0.5" y="0.5" width="240" height="240" rx="82.5" fill="none"/>
+    </g>
+    <path id="Path_4087" data-name="Path 4087" d="M0,0H69l.051,32.02C50.422,35.03,47.756,42.243,46.107,55.062L15,55A15,15,0,0,1,0,40Z" transform="translate(1384 894)"/>
+    <path id="Path_4088" data-name="Path 4088" d="M11.932,4.25a3.368,3.368,0,0,1,5.135,0L30.983,17.688C26.976,21.9,3,22.766-1.632,18.276Z" transform="translate(1418.477 934.771) rotate(-44)" fill="#262626"/>
+  </g>
+</svg>

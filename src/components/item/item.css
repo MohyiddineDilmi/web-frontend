@@ -1,0 +1,59 @@
+.sh__item {
+    display: flex;
+    justify-content: space-beween;
+    flex-direction: column;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    width: 220px;
+    height: 350px;
+    border-radius: 45px;
+    position: relative;
+}
+
+.sh__item-logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.sh__item-name p{
+    font-family: var(--font-service);
+    font-weight: bold;
+    font-size: 37px;
+    color: #FFFFFF;
+}
+
+.sh__item-description p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sh__item-learn-more {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+
+.sh__item-learn-more p{
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.sh__item-learn-more-icon {
+    color: #FFFFFF;
+    margin-left: 0.5rem;
+}
+
+.sh__item-play {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.sh__item-play-icon {
+    width: 25.5px;
+    height: 25.5px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,29 @@
+.sh__omenuDescription-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sh__omenuDescription-container-description h1{
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    color: #000000;
+}
+
+.sh__omenuDescription-container-description p{
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    color: #000000;
+}
+
+
+

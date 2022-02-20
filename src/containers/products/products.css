@@ -1,0 +1,37 @@
+.sh__products {
+
+}
+
+.sh__products-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.sh__products-items-list {
+    display: flex;
+    flex-wrap: wrap;  
+    row-gap: 2rem;  
+    column-gap: 2em;
+    justify-content: center;
+}
+
+.sh__products-all-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.sh__products-all-button button{
+    width: 213.41px;
+    height: 60px;
+    background: transparent;
+    border-radius: 30px;
+    font-family: var(font-family);
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+

@@ -1,0 +1,21 @@
+.sh__omenuHeader-container-content p{
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+.sh__omenuHeader-container-content h1 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 85px;
+}
+
+@media screen and (max-width: 700px) {
+    .sh__omenuHeader h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
