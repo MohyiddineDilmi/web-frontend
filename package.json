@@ -1,7 +1,7 @@
 {
   "name": "web-frontend",
   "version": "0.1.0",
-  "homepage": "/.",
+  "homepage": "https://shoofgo.com",
   "private": true,
   "build": "set \"CI=false\" && react-scripts build",
   "dependencies": {
