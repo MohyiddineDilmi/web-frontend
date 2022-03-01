@@ -4,6 +4,25 @@
     margin: 0;
     scroll-behavior: smooth;
   }
+
+  @font-face {
+    font-family: "Housttely Signature";
+    src: url("./fonts/HousttelySignature.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Qanelas Soft DEMO";
+    src: url("./fonts/QanelasSoftDEMO-ExtraBold.otf");
+    font-display: swap;
+  }
+  
   
   body {
     background: var(--color-bg);
@@ -12,6 +31,14 @@
   a {
     color: unset;
     text-decoration: none;
+  }
+  
+  .gray__bg {
+    background: #FAFAFA;
+  }
+
+  .black__bg {
+    background: #0E0E0E;
   }
   
   .gradient__bg {

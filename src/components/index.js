@@ -1,1 +1,6 @@
-export { default as Item } from './item/Item';
+export { default as Item } from './item/Item'
+export { default as OmenuFeature } from './omenuFeature/OmenuFeature'
+export { default as UniqueAnimation } from './uniqueAnimation/UniqueAnimation'
+export { default as PlusAnimation } from './plusAnimation/PlusAnimation'
+export { default as OrderItem } from './orderItem/OrderItem'
+export { default as Player } from './player/Player'

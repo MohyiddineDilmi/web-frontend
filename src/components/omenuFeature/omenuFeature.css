@@ -1,0 +1,26 @@
+.sh__omenuFeature-container {
+    width: 180px;
+    height: 280px;
+    border-radius: 45px;
+    background: #F4F4F4;
+}
+
+.sh__omenuFeature-container-content {
+    padding: 1rem;
+}
+
+.sh__omenuFeature-container-content h1{
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+}
+
+.sh__omenuFeature-container-content p{
+    padding-top: 1rem;
+    font-family: var(--font-family);
+    font-size: 14px;
+    text-align: center;
+    color: #2F2F2F;
+}

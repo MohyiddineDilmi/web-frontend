@@ -1,0 +1,70 @@
+.sh__omenuSubscription {
+    display: flex;
+    justify-content: center;
+}
+
+.sh__omenuSubscription-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.sh__omenuSubscription-container-title {
+    display: flex;
+    justify-content: center;
+}
+
+.sh__omenuSubscription-container-title h1 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 4rem;
+}
+
+.sh__omenuSubscription-container-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    font-family: var(--font-family);
+    border-radius: 45px;
+    background: #f4f4f4;
+    padding: 1rem;
+}
+
+.sh__omenuSubscription-container-content h2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+
+.sh__omenuSubscription-container-content p {
+    font-size: 14px;
+    color: #2F2F2F;
+}
+
+.sh__omenuSubscription-container-subscribe-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.sh__omenuSubscription-container-subscribe-button button{
+    width: 210px;
+    height: 60px;
+    background: transparent;
+    border-radius: 30px;
+    font-family: var(font-family);
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    
+}

@@ -1,0 +1,100 @@
+.sh__omenuDescription {
+    display: flex;
+}
+
+.sh__omenuDescription-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sh__omenuDescription-container-video {
+    padding-left: 24rem;
+    padding-right: 24rem;
+}
+
+.sh__omenuDescription-container-description {
+    padding: 4rem;
+}
+
+.sh__omenuDescription-container-description h1{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 48px;
+    color: #000000;
+}
+
+.sh__omenuDescription-container-description p{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #000000;
+    padding-left: 24rem;
+    padding-right: 24rem;
+    text-align: center;
+}
+
+.sh__omenuDescription-container-order-button {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.sh__omenuDescription-container-order-button button{
+    width: 213.41px;
+    height: 60px;
+    background: transparent;
+    border-radius: 30px;
+    font-family: var(font-family);
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    .sh__omenuDescription-container-description p{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .sh__omenuDescription-container {
+        display: inline;
+    }
+
+    .sh__omenuDescription-container-video {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .sh__omenuDescription-container-description p{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .sh__omenuDescription-container-video {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .sh__omenuDescription-container {
+        display: inline;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .sh__omenuDescription-container-description p{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+

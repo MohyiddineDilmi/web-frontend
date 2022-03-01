@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import { Footer, Header, Navbar, OmenuDescription, OmenuHeader, Products } from './containers';
+import { Footer, Header, Navbar, OmenuDescription, OmenuHeader, Products, OmenuFeatures, OmenuUnique, OmenuUse, OmenuSubscription, OmenuAugment } from './containers';
 
 const App = () => {
   return (
@@ -37,7 +37,18 @@ function Omenu() {
           <Navbar/>
           <OmenuHeader/> 
         </div>
-        <OmenuDescription/>
+        <div className='gray__bg'>
+          <OmenuDescription/>
+          <OmenuFeatures/>  
+        </div>
+        <div className='black__bg'>
+          <OmenuUnique/>
+          <OmenuUse/>
+        </div>
+        <div className='gray__bg'>
+          <OmenuSubscription/>
+          <OmenuAugment/>
+        </div>
         <Footer/>
       </div>
     </>

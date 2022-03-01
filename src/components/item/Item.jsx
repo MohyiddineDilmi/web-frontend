@@ -15,7 +15,6 @@ const Item = ({logo, name, description, path, serviceImg, bg_color}) => {
             backgroundSize: `cover`
         }}
         >
-
         <div className='sh__item-logo'>
             <img src= {logo} alt="Service Logo"/>
         </div>
