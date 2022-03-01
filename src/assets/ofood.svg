@@ -1,16 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f8534f"/>
-      <stop offset="1" stop-color="#f50"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="241" height="241" viewBox="0 0 241 241">
   <g id="ofood" transform="translate(-1559 -364)">
-    <g id="Rectangle_184" data-name="Rectangle 184" transform="translate(1559 364)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)">
-      <rect width="101" height="101" rx="32" stroke="none"/>
-      <rect x="0.5" y="0.5" width="100" height="100" rx="31.5" fill="none"/>
+    <g id="Rectangle_184" data-name="Rectangle 184" transform="translate(1559 364)" fill="#f8534f" stroke="#fff" stroke-width="1">
+      <rect width="241" height="241" rx="72" stroke="none"/>
+      <rect x="0.5" y="0.5" width="240" height="240" rx="71.5" fill="none"/>
     </g>
-    <path id="utensils-solid" d="M184.486,34.216,182.78,55.265a2.728,2.728,0,0,0,2.718,2.957h6.368a2.723,2.723,0,0,0,2.729-2.729V2.729A2.73,2.73,0,0,0,191.866,0C182.484,0,166.689,20.3,184.486,34.216Z" transform="translate(1439.084 385.446)" fill="#fff"/>
-    <path id="utensils-solid-2" data-name="utensils-solid" d="M23.641,1.727c.091.534,1.831,10.746,1.831,14.646,0,5.947-3.161,10.189-7.835,11.895L19.1,55.344a2.736,2.736,0,0,1-2.729,2.877H9.1a2.736,2.736,0,0,1-2.729-2.877L7.835,28.268C3.15,26.563,0,22.31,0,16.374,0,12.462,1.74,2.262,1.831,1.727c.364-2.308,5.151-2.343,5.447.125V17.909c.148.387,1.717.364,1.819,0,.159-2.877.9-15.829.91-16.125.375-2.365,5.083-2.365,5.447,0,.023.307.751,13.248.91,16.125.1.364,1.683.387,1.819,0V1.852C18.479-.6,23.277-.581,23.641,1.727Z" transform="translate(1584.07 385.447)" fill="#fff"/>
+    <path id="utensils-solid" d="M195.688,81.646l-4.07,50.225a6.51,6.51,0,0,0,6.485,7.055H213.3a6.5,6.5,0,0,0,6.512-6.512V6.512A6.514,6.514,0,0,0,213.3,0C190.912,0,153.223,48.434,195.688,81.646Z" transform="translate(1517.385 415.173)" fill="#fff"/>
+    <path id="utensils-solid-2" data-name="utensils-solid" d="M56.411,4.123C56.628,5.4,60.78,29.765,60.78,39.072c0,14.191-7.543,24.312-18.7,28.382l3.5,64.606a6.529,6.529,0,0,1-6.512,6.865H21.707a6.529,6.529,0,0,1-6.512-6.865l3.5-64.606C7.516,63.384,0,53.236,0,39.072,0,29.738,4.151,5.4,4.369,4.123c.868-5.508,12.292-5.59,13,.3V42.735c.353.923,4.1.868,4.341,0,.38-6.865,2.144-37.77,2.171-38.476.9-5.644,12.129-5.644,13,0,.054.733,1.791,31.611,2.171,38.476.244.868,4.016.923,4.341,0V4.422C44.093-1.439,55.543-1.385,56.411,4.123Z" transform="translate(1618.82 415.174)" fill="#fff"/>
   </g>
 </svg>
