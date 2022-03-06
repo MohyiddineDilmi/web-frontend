@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import { Footer, Header, Navbar, OmenuDescription, OmenuHeader, Products, OmenuFeatures, OmenuUnique, OmenuUse, OmenuSubscription, OmenuAugment } from './containers';
+import { Footer, Header, Navbar, OmenuDescription, OmenuHeader, Products, OmenuFeatures, OmenuUnique, OmenuUse, OmenuSubscription, OmenuAugment, OfoodSubscription } from './containers';
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/omenu" element={<Omenu />} />
+          <Route path="/ofood" element={<Ofood />} />
       </Routes>
     </div>
   )
@@ -53,6 +54,14 @@ function Omenu() {
       </div>
     </>
   );
+}
+
+function Ofood() {
+  return (
+    <>
+      <OfoodSubscription/>
+    </>
+  )
 }
 
 export default App

@@ -47,7 +47,6 @@
     cursor: pointer;
 }
 
-
 @media screen and (max-width: 480px) {
     .sh__omenuAugment-container-content {
         flex-direction: column;
