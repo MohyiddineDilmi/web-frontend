@@ -15,7 +15,7 @@ import { motion } from 'framer-motion';
 
 const productsData = [
     {
-        path: `/`,
+        path: `/ofood`,
         logo: `${ofood}`,
         name: 'OFood',
         description: 'Be part of a new food experience',
