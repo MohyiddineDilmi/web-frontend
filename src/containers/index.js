@@ -11,4 +11,7 @@ export { default as OmenuUse } from './omenu/omenuUse/OmenuUse'
 export { default as OmenuSubscription } from './omenu/omenuSubscription/OmenuSubscription'
 export { default as OmenuAugment } from './omenu/omenuAugment/OmenuAugment'
 
-export { default as OfoodSubscription } from './ofood/ofoodSubscription/OfoodSubscription'  
+export { default as OfoodHeader } from './ofood/ofoodHeader/OfoodHeader'
+
+
+

@@ -1,0 +1,29 @@
+.sh__serviceHeader-container-content {
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+}
+.sh__serviceHeader-container-content h1 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 85px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .sh__serviceHeader-container-content {
+        padding-bottom: 4rem;
+        padding-left: 0.5rem;
+    }
+
+    .sh__footer-about {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sh__serviceHeader h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+}

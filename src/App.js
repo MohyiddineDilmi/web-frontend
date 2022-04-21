@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import { Footer, Header, Navbar, OmenuDescription, OmenuHeader, Products, OmenuFeatures, OmenuUnique, OmenuUse, OmenuSubscription, OmenuAugment, OfoodSubscription } from './containers';
+import { Footer, Header, Navbar, OmenuDescription, OmenuHeader, Products, OmenuFeatures, OmenuUnique, OmenuUse, OmenuSubscription, OmenuAugment, OfoodHeader} from './containers';
 
 const App = () => {
   return (
@@ -56,12 +56,17 @@ function Omenu() {
   );
 }
 
-function Ofood() {
+function Ofood () {
   return (
     <>
-      <OfoodSubscription/>
+      <div>
+        <div className='gradient__bg'>
+          <Navbar/>
+          <OfoodHeader/> 
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default App
